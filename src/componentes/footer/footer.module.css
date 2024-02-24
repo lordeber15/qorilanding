@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&display=swap');
+@import '@fontsource-variable/outfit';
+@import '@fontsource-variable/vollkorn';
+.footer{
+    background: var(--colorfondo);
+}
+.footergeneral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px 200px 100px;
+}
+.copy{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px 50px 50px;
+    color: var(--bg-color2);
+    border-top: 1px solid #303030;
+}
+.btnfooter{
+    width: 320px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    background-color: #1f1f1f;
+    font-family: "Outfit Variable";
+    letter-spacing: 0.06em;
+    padding: 10px;
+    margin: 5px;
+    color:antiquewhite;
+}
+.btnfooter:hover{
+    color:aliceblue;
+}
+
+.titlefooter{
+    font-size: 30px;
+    font-weight: 700;
+    color:antiquewhite;
+    font-family: "Vollkorn Variable";
+    padding: 10px;
+    
+}
+.imagefooter{
+    background-color:antiquewhite;
+    width: 100%;
+}
+.logofooter{
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+.redessociales{
+   list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 5px;
+}
+
+.correofooter{
+    font-size: 30px;
+    font-weight: 700;
+    color:antiquewhite;
+    font-family: "Vollkorn Variable";
+    padding: 10px;
+}
+.numerofooter{
+    font-size: 30px;
+    font-weight: 700;
+    color:antiquewhite;
+    font-family: "Vollkorn Variable";
+    padding: 10px;
+}
+.redes{
+    padding: 5px;
+    width: 25px;
+}

@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
+.contenedor{
+    display: flex;
+    justify-content: center;
+
+}
+.imagen{
+    height: 100vh;
+    background-image: url("../../assets/fondo.webp");
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    color: var(--bg-color);
+    text-align: center;
+    font-family: "Noto Serif";
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+.fideos{
+    margin: 0px;
+    padding: 0px;
+    width: 68%;
+    margin-bottom: -2%;
+    animation: slide-in 2s ease;
+    
+}
+
+
+@keyframes slide-in {
+    from{
+        transform: translateX(50vW);
+    }
+    to{
+        transform: translateX(0);
+
+    }
+}
