@@ -48,17 +48,17 @@
     
 }
 .imagenceo{
-    width: 40%;
-}
+    width: 50%;
+} 
 .textceo{
     padding: 10px 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align:justify;
-    font-size: 24px;
+    font-size: 20px;
     border: 3px solid rgb(190, 190, 190);
-    margin: 10% 8%;
+    margin: 12% 5%;
     border-style:dashed;
     font-family: 'Ubuntu', sans-serif;
     transition: all .3s;
@@ -77,7 +77,9 @@
 .fundador{
     color: var(--bg-color)
 }
-
+.imagen50{
+    width: 50vh;
+}
 
 @keyframes slide-in {
     from{
