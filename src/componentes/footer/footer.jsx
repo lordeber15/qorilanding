@@ -56,7 +56,9 @@ function footer() {
           <Link to={"https://wa.link/5c58b2"}>
             <div className={style.numerofooter}>+51 990 779 050</div>
           </Link>
-          <div className={style.titlefooter}>Av. 26 de Enero</div>
+          <div className={style.direcfooter}>
+            Jr. 24 de Junio N 164 San Juan Bautista
+          </div>
         </div>
       </div>
       <div className={style.copy}>

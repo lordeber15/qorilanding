@@ -12,6 +12,8 @@
   "dependencies": {
     "@fontsource-variable/outfit": "^5.0.8",
     "@fontsource-variable/vollkorn": "^5.0.19",
+    "@fontsource-variable/yrsa": "^5.0.19",
+    "@fontsource/ubuntu": "^5.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.1"
