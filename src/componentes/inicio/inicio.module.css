@@ -48,9 +48,13 @@
     
 }
 .imagenceo{
-    width: 50%;
+    background-image: url("../../assets/ceo.jpg");
+    min-width: 50%;
+    height: 80rem;
+    background-repeat: no-repeat;
 } 
 .textceo{
+    max-width: 50%;
     padding: 10px 5%;
     display: flex;
     flex-direction: column;
@@ -77,9 +81,22 @@
 .fundador{
     color: var(--bg-color)
 }
-.imagen50{
-    width: 50vh;
+
+.descripcionpasta{
+    width: 100%;
 }
+.pasta{
+    background-image: url("../../assets/platoyfideos.jpg");
+    min-width: 50%;
+    height: 60rem;
+    background-repeat: no-repeat;
+}
+.pastasgeneral{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg-color1);
+}
+
 
 @keyframes slide-in {
     from{

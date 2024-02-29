@@ -1,0 +1,49 @@
+@import '@fontsource/source-serif-pro';
+.cardpasta{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10%;
+    font-family: 'Ubuntu', sans-serif;
+    border: 3px solid rgb(177, 176, 176);
+    border-style:dashed;
+    padding: 2% 8%;
+}
+.titlepasta{
+    margin: 3% 0%;
+    color: rgb(78, 36, 36);
+    font-size: 25px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+}
+.titlepastas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10% 3% 3% 3%;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(78, 36, 36);
+    font-size: 80px;
+}
+.cardpasta:hover{
+    border-color: var(--fondocolor);
+}
+.titleorganica{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--bg-color);
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+}
+.ppasta{
+    padding: 3% 10%;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    font-size: 20px;
+    color: rgb(78, 36, 36);
+}

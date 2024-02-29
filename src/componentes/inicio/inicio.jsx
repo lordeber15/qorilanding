@@ -1,7 +1,7 @@
 import style from "./inicio.module.css";
 import fideos from "../../assets/fideos.png";
-import ceo from "../../assets/ceo.jpg";
 import { Link } from "react-router-dom";
+import Cardproducto from "../cardproducto/cardproducto";
 function inicio() {
   return (
     <div className={style.contenedor}>
@@ -14,7 +14,7 @@ function inicio() {
         <Link className={style.boton}>¡Compra Ahora!</Link>
       </div>
       <div className={style.ceo}>
-        <img className={style.imagenceo} src={ceo} />
+        <div className={style.imagenceo} />
         <span className={style.textceo}>
           <h1 className={style.titleceo}>
             <span>CEO-</span>
@@ -32,9 +32,13 @@ function inicio() {
             su esposa, decide hacer algo, en un almuerzo familiar nace esta idea
             de crear una formula de unas pastas hechas a base de QUINUA, CUY y
             ATACCO, el cual fue inicio de esta oportunidad ante un problema.
-          </p>{" "}
+          </p>
           Emprendimiento el 12 de Octubre del 2019.
         </span>
+      </div>
+      <div className={style.pastasgeneral}>
+        <Cardproducto />
+        <div className={style.pasta} />
       </div>
     </div>
   );

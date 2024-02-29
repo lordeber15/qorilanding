@@ -1,0 +1,20 @@
+@import '@fontsource/source-serif-pro';
+
+.titlepastas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10% 3% 3% 3%;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(78, 36, 36);
+    font-size: 80px;
+}
+
+.ppasta{
+    padding: 3% 10%;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
