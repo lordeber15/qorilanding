@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
 @import '@fontsource-variable/yrsa';
 @import '@fontsource/ubuntu';
+
 .contenedor{
     display: flex;
     justify-content: center;
@@ -50,19 +51,19 @@
 .imagenceo{
     background-image: url("../../assets/ceo.jpg");
     min-width: 50%;
-    height: 80rem;
+    height: 50rem;
     background-repeat: no-repeat;
 } 
 .textceo{
     max-width: 50%;
-    padding: 10px 5%;
+    padding: 5% 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align:justify;
     font-size: 20px;
     border: 3px solid rgb(190, 190, 190);
-    margin: 12% 5%;
+    margin: 7% 5%;
     border-style:dashed;
     font-family: 'Ubuntu', sans-serif;
     transition: all .3s;
@@ -88,7 +89,7 @@
 .pasta{
     background-image: url("../../assets/platoyfideos.jpg");
     min-width: 50%;
-    height: 60rem;
+    height: 50rem;
     background-repeat: no-repeat;
 }
 .pastasgeneral{
@@ -107,3 +108,30 @@
 
     }
 }
+
+@media (max-width: 412px) {
+    .ceo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .textceo{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 10% 5%;
+    }
+    .pastasgeneral{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imagenceo{
+        min-width: 25%;
+        height: 25rem;
+    }
+    .pasta{
+        min-width: 25%;
+        height: 25rem;
+    }
+  }

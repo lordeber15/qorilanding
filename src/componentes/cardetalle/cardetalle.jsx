@@ -1,10 +1,6 @@
 import style from "./cardetalle.module.css";
 
-function cardetalle({ titulop1, titulop2 }) {
-  const lista = [
-    { des: "Presentación: Tagliatelle 8.3, Tornillo" },
-    { des: "Gramaje: 250 gr" },
-  ];
+function cardetalle({ titulop1, titulop2, lista }) {
   return (
     <span className={style.cardpasta}>
       <span className={style.titlepasta}>
