@@ -1,0 +1,53 @@
+.pasta{
+    background-image: url("../../assets/pastasquinua.jpg");
+    min-width: 50%;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+.pastasgeneral{
+    display: flex;
+    align-items:   center;
+    flex-direction: row;
+    background-color: var(--bg-color1);
+}
+
+.titlepastas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3%;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(78, 36, 36);
+    font-size: 60px;
+    text-align: center;
+}
+
+.ppasta{
+    padding: 3% 10%;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.pastac{
+    background-image: url("../../assets/pastascolores.jpg");
+    min-width: 50%;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.pastacur{
+    background-image: url("../../assets/Curcumina.jpg");
+    min-width: 50%;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: 105%;
+}
+.pastacuy{
+    background-image: url("../../assets/Nutripasta.jpg");
+    min-width: 50%;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: 105%;
+}
