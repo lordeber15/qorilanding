@@ -1,0 +1,35 @@
+@import '@fontsource-variable/bitter';
+@import '@fontsource/ubuntu';
+.contenedor{
+    background-color: antiquewhite;
+}
+.contenedortext{
+    margin: 0% 13%;
+    padding: 5% 5%;
+    color: rgb(78, 36, 36);
+}
+.title1{
+    display: flex;
+    justify-content: center;
+    padding: 0% 0% 1% 0%;
+    font-family: 'Bitter Variable', serif;
+    font-size: 45px;
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    padding: 0% 0% 1% 0%;
+    font-family: 'Bitter Variable', serif;
+    font-size: 40px;
+}
+.parrafo{
+    padding: 1% 0%  0% 0%;
+    font-family: "ubuntu";
+    font-size: large;
+}
+.certificados{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 3%;
+}

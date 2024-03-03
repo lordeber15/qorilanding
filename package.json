@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/bitter": "^5.0.17",
     "@fontsource-variable/outfit": "^5.0.8",
     "@fontsource-variable/roboto-slab": "^5.0.18",
     "@fontsource-variable/vollkorn": "^5.0.19",

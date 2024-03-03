@@ -2,6 +2,7 @@ import style from "./inicio.module.css";
 import fideos from "../../assets/fideos.png";
 import { Link } from "react-router-dom";
 import Cardproducto from "../cardproducto/cardproducto";
+import Certificaciones from "../certificaciones/certificaciones";
 function inicio() {
   return (
     <div className={style.contenedor}>
@@ -40,6 +41,7 @@ function inicio() {
         <Cardproducto />
         <div className={style.pasta} />
       </div>
+      <Certificaciones />
     </div>
   );
 }
