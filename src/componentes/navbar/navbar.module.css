@@ -47,3 +47,38 @@ a:hover{
     color: var(--bg-color2);
     border-bottom: 4px solid var(--bg-color);
 }
+
+.abrirmenu {
+    display: none;
+}
+.cerrarmenu{
+    display: none;
+}
+
+@media screen and (max-width: 812px) {
+    .abrirmenu{
+        display: block;
+        cursor: pointer;
+    }
+    .titles{
+        display: none;
+    }
+    .titles{
+        position: absolute;
+        flex-direction: column;
+        align-items: end;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        align-items: end;
+        background-color: #000;
+        box-shadow: 0 0 0 100vmax rgba(0,0, 0,.5);
+        opacity: 0;
+        visibility: hidden;
+    }
+    .titles.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+}

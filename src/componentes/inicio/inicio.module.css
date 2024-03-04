@@ -109,7 +109,7 @@
     }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 812px) {
     .ceo{
         display: flex;
         justify-content: center;
@@ -134,4 +134,5 @@
         min-width: 25%;
         height: 25rem;
     }
+
   }

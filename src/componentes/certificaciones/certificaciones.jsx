@@ -22,10 +22,10 @@ function certificaciones() {
         </p>
       </div>
       <div className={style.certificados}>
-        <img src={fda} />
-        <img src={iso} />
-        <img src={haccp} />
-        <img src={free} />
+        <img src={fda} className={style.svg} />
+        <img src={iso} className={style.svg} />
+        <img src={haccp} className={style.svg} />
+        <img src={free} className={style.svg} />
       </div>
     </div>
   );

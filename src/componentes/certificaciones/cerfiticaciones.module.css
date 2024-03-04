@@ -30,6 +30,18 @@
 .certificados{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 35px;
     padding: 3%;
+}
+
+@media (max-width: 813px) {
+    .certificados{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .svg{
+        width: 50%;
+        justify-content: center;
+    }
 }
