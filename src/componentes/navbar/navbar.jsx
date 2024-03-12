@@ -3,7 +3,7 @@ import logo from "../../assets/Logo.svg";
 import svg from "../../assets/menu.svg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-function navbar() {
+function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const handleButtonChange = () => {
     setIsOpen(!isOpen);
@@ -40,4 +40,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

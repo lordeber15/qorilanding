@@ -38,7 +38,9 @@ function inicio() {
         </span>
       </div>
       <div className={style.pastasgeneral}>
-        <Cardproducto />
+        <div className={style.cardproducto}>
+          <Cardproducto />
+        </div>
         <div className={style.pasta} />
       </div>
       <Certificaciones />

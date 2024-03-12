@@ -1,6 +1,6 @@
 .pasta{
     background-image: url("../../assets/pastasquinua.jpg");
-    min-width: 50%;
+    width: 50%;
     height: 50rem;
     background-repeat: no-repeat;
     background-size: 120%;
@@ -10,6 +10,14 @@
     align-items:   center;
     flex-direction: row;
     background-color: var(--bg-color1);
+}
+
+.descripcionpasta{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50rem;
 }
 
 .titlepastas{
@@ -50,4 +58,31 @@
     height: 50rem;
     background-repeat: no-repeat;
     background-size: 105%;
+}
+
+
+@media (max-width: 930px) {
+    .pastasgeneral{
+        flex-direction: column;
+    }
+    .descripcionpasta{
+        width: 100%;
+        height: 40rem;
+        order: 1;
+    }
+    .pastac{
+        width: 100%;
+        height: 40rem;
+        order: 2;
+    }
+    .pasta{
+        width: 100%;
+        height: 40rem;
+        order: 2;
+    }
+    .pastacur{
+        width: 100%;
+        height: 40rem;
+        order: 2;
+    }
 }

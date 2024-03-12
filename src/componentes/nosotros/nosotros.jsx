@@ -1,4 +1,3 @@
-import imghistoria from "../../assets/historia.jpg";
 import style from "./nosotros.module.css";
 import empacado from "../../assets/Empacado.png";
 function nosotros() {
@@ -24,7 +23,7 @@ function nosotros() {
             para obtener un producto de calidad e inocuidad
           </p>
         </div>
-        <img className={style.imagen} src={imghistoria} />
+        <img className={style.imagen} />
       </div>
       <div className={style.nosotroscontenedor}>
         <div className={style.contenedortitle}>
@@ -51,7 +50,7 @@ function nosotros() {
               <p>Pasta con HIERRO NO HEMINICO, 100% con insumos vegetales.</p>
             </div>
           </div>
-          <div className={style.imagen}>
+          <div className={style.imagenempaque}>
             <img src={empacado} className={style.imagentamaño} />
           </div>
           <div className={style.descripciones}>

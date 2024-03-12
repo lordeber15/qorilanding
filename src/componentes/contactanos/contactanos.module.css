@@ -3,7 +3,6 @@
 .contenedor{
     background-color: antiquewhite;
     background-image: url("../../assets/contactanos.png");
-    
     max-width: 100%;
     height: 35rem;
     background-size: 100%;
@@ -90,6 +89,9 @@
 .descripcioncontacto{
     width: 50%;
     margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .formulario{
     width: 50%;
@@ -178,4 +180,41 @@
 .btnenviar:hover{
     background-color: rgb(78, 36, 36);
     color: #fff;
+}
+
+@media (max-width: 930px) {
+    .titlecontacto{
+        font-size: 50px;
+    }
+    .subtitlecontacto{
+        font-size: 25px;
+        text-align: center;
+    }
+    .telefono{
+        font-size: 25px;
+        align-items: center;
+    }
+    .infodp{
+        font-size: 15px;
+    }
+    .infod{
+        font-size: 15px;
+    }
+    .contenedor{
+        justify-content: center;
+    }
+
+    .fondocontacto{
+        flex-direction: column;
+        height: 90rem;
+    }
+    .descripcioncontacto{
+        width: 80%;
+        place-content: center;
+    }
+    .formulario{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
 }

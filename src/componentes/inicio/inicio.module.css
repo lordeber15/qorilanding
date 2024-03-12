@@ -52,10 +52,12 @@
     background-image: url("../../assets/ceo.jpg");
     min-width: 50%;
     height: 50rem;
+    background-size: 100%;
     background-repeat: no-repeat;
 } 
 .textceo{
-    max-width: 50%;
+    width: 50%;
+    height: 100%;
     padding: 5% 5%;
     display: flex;
     flex-direction: column;
@@ -84,18 +86,23 @@
 }
 
 .descripcionpasta{
-    width: 100%;
+    width: 50%;
 }
 .pasta{
     background-image: url("../../assets/platoyfideos.jpg");
     min-width: 50%;
     height: 50rem;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 .pastasgeneral{
     display: flex;
     flex-direction: row;
     background-color: var(--bg-color1);
+}
+
+.cardproducto{
+    width: 50%;
 }
 
 
@@ -109,17 +116,18 @@
     }
 }
 
-@media (max-width: 812px) {
+@media (max-width: 930px) {
     .ceo{
         display: flex;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
     }
     .textceo{
-        max-width: 100%;
+        width: 80%;
         display: flex;
         justify-content: center;
-        margin: 10% 5%;
+        margin: 5% 5%;
     }
     .pastasgeneral{
         display: flex;
@@ -133,6 +141,12 @@
     .pasta{
         min-width: 25%;
         height: 25rem;
+        order: 1;
     }
+    .cardproducto{
+        width: 100%;
+        order: 2;
+    }
+    
 
   }

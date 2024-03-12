@@ -43,25 +43,6 @@ function productos() {
       </div>
       <div className={style.pastasgeneral}>
         <div className={style.descripcionpasta}>
-          <span className={style.titlepastas}>Pasta de Quinua y Cuy</span>
-          <p className={style.ppasta}>
-            Pasta a base harina de quinua orgánica y super alimentos,
-            encuéntralas en presentaciones Tagliatelle y Tornillo.
-          </p>
-          <CardDetalle
-            titulop1={"PASTA DE QUINUA Y"}
-            titulop2={"CUY"}
-            lista={[
-              { des: "Formatos tagliatelle 8 3 canuto" },
-              { des: "Presentación caja Box X 30 und De 250 g" },
-            ]}
-          />
-        </div>
-        <div className={style.pastacuy} />
-      </div>
-      <div className={style.pastasgeneral}>
-        <div className={style.pastacur} />
-        <div className={style.descripcionpasta}>
           <span className={style.titlepastas}>
             Pasta de Trigo Fortificado y Curcumina
           </span>
@@ -81,6 +62,7 @@ function productos() {
             ]}
           />
         </div>
+        <div className={style.pastacur} />
       </div>
     </div>
   );

@@ -31,8 +31,11 @@
     color: rgb(78, 36, 36);
 }
 .imagen{
-    width: 40%;
+    width: 50%;
     padding: 5%;
+    background-image: url("../../assets/historia.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .subtitulo{
     color: var(--bg-color)
@@ -95,6 +98,15 @@
     align-items: center;
     margin: 0;
     padding: 0;
+    min-width: 50%;
+}
+.imagenempaque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-width: 50%;
 }
 .parrafopro{
     display: flex;
@@ -115,4 +127,17 @@
     font-size: 40px;
     font-family: 'Roboto Slab Variable', serif;
     font-weight: 800
+}
+
+@media (max-width: 930px) {
+    .contenedor{
+        flex-direction: column;
+    }
+    .imagen{
+        width: 100%;
+        height: 35rem;
+    }
+    .parrafogeneral{
+        max-width: 100%;
+    }
 }
