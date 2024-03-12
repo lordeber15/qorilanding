@@ -1,7 +1,7 @@
 import style from "./footer.module.css";
 import logo from "../../assets/Logo.svg";
 import { Link } from "react-router-dom";
-import imgfooter from "../../assets/footer-tiyapuy-3_danzantes-2.webp";
+import imgfooter from "../../assets/footerimagen.png";
 import facebook from "../../assets/facebook.svg";
 import twiterx from "../../assets/twitterx.svg";
 import whatsapp from "../../assets/whatsapp.svg";
