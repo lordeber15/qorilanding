@@ -1,5 +1,5 @@
 import style from "./inicio.module.css";
-import fideos from "../../assets/fideos.png";
+import fideos from "../../assets/inicio.png";
 import { Link } from "react-router-dom";
 import Cardproducto from "../cardproducto/cardproducto";
 import Certificaciones from "../certificaciones/certificaciones";
