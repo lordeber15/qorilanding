@@ -12,7 +12,9 @@ function inicio() {
         </div>
       </div>
       <div className={style.botoncompra}>
-        <Link className={style.boton}>¡Compra Ahora!</Link>
+        <Link to={"https://wa.link/5c58b2"} className={style.boton}>
+          ¡Compra Ahora!
+        </Link>
       </div>
       <div className={style.ceo}>
         <div className={style.imagenceo} />
