@@ -10,20 +10,14 @@ function cardproducto() {
           en presentaciones Tagliatelle y Tornillo.
         </p>
         <CardDetalle
-          titulop1={"PASTA DE QUINUA"}
+          titulop1={"PASTA CON QUINUA"}
           titulop2={"ORGÁNICA"}
-          lista={[
-            { des: "Presentación: Tagliatelle 8.3, Tornillo" },
-            { des: "Gramaje: 250 gr" },
-          ]}
+          lista={[{ des: "Presentación: Fusilli" }, { des: "Gramaje: 250 gr" }]}
         />
         <CardDetalle
-          titulop1={"PASTA MULTICEREAL DE"}
-          titulop2={"SUPER ALIMENTOS"}
-          lista={[
-            { des: "Presentación: Tagliatelle 8.3, Tornillo" },
-            { des: "Gramaje: 250 gr" },
-          ]}
+          titulop1={"PASTA CON QUINUA ORGANICA DE COLORES"}
+          titulop2={"(con mazorca de maiz morado, espirulina y curcuma)"}
+          lista={[{ des: "Presentación: Fusilli" }, { des: "Gramaje: 250 gr" }]}
         />
       </div>
     </div>
