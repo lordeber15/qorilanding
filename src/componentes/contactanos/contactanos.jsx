@@ -29,13 +29,9 @@ function contactanos() {
           <h1 className={style.titleform}>BÚSCANOS</h1>
           <p className={style.parrafoform}>
             <p>
-              Búscanos estaremos felices de atenderte en Tiyapuy. Somos la mega
-              brand de alimentos que revaloriza los cultivos andinos de papas
-              nativas, quinua orgánica y pastas especiales. Búscanos! Estaremos
-              felices de aclarar todas tus dudas. En Tiyapuy cada día trabajamos
-              para desarrollar nuevos alimentos de origen peruano nutritivos,
-              orgánicos y deliciosos para el mundo.
+            Originaria de Ayacucho, Qori es una marca peruana premium basda en el comercio justo . nuestra familia esta dedicada a su receta , garantizabdo que nuestros productos esten llenos de nutrientes provenientes de la quinua organica y superalimentos naturales , demostrando que todavia es posible comer rico y saludable . 
             </p>
+            <p>Qori la riqueza de nuestro origen</p>
             <p>
               Si tienes alguna duda, comentario o simplemente quieres
               saludarnos, no dudes en enviarnos un mensaje a través del
@@ -47,28 +43,31 @@ function contactanos() {
             no dudes en contarnos cualquier cosa pronto.
           </p>
         </div>
-        <div className={style.formulario}>
-          <form className={style.formularioinput}>
+        <div className={style.formulario}  >
+          <form className={style.formularioinput} action="https://formsubmit.co/1a00dd92f4de823d4840f4305d9d022e" method="POST">
             <h1 className={style.formtitle}>¿TIENES PREGUNTAS? ESCRIBENOS</h1>
             <input
               className={style.inputs}
               type="text"
               placeholder="Nombre Completo *"
               required
+              name="nombre"
             />
             <input
               className={style.inputs}
               type="text"
               placeholder="Telefono *"
               required
+              name="telefono"
             />
             <input
               className={style.inputs}
               type="text"
               placeholder="Email *"
               required
+              name="email"
             />
-            <textarea className={style.textarea} placeholder="Mensaje..." />
+            <textarea className={style.textarea} placeholder="Mensaje..." name="descripcion" />
             <div>
               <input
                 className={style.checkbox}
@@ -82,7 +81,9 @@ function contactanos() {
                 </a>
               </label>
             </div>
-            <button className={style.btnenviar}>Enviar Mensaje</button>
+            <button value="Enviar" className={style.btnenviar}>Enviar Mensaje</button>
+            <input type="hidden" name="_next" value="http://www.qorifoodss.com/"/>
+            <input type="hidden" name="_captcha" value="false"/>
           </form>
         </div>
       </div>

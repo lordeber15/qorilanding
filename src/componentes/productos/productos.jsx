@@ -28,8 +28,7 @@ function productos() {
             Pasta con Quinua Orgánica de Colores
           </span>
           <p className={style.ppasta}>
-            Pasta a base harina de quinua orgánica y super alimentos,
-            encuéntralas en presentaciones Fusilli.
+            Pasta con quinua orgánica 75% de colores con ESPIRULINA mazorca de maíz morado y cúrcuma
           </p>
           <CardDetalle
             titulop1={"PASTA DE QUINUA ORGÁNICA DE"}

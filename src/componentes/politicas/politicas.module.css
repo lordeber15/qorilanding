@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&display=swap');
+@import '@fontsource-variable/outfit';
+@import '@fontsource-variable/vollkorn';
+.contenedor{
+    width: 50%;
+    height: 100%;
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:justify;
+    font-size: 20px;
+    border: 3px solid rgb(190, 190, 190);
+    margin: 7% 5%;
+    border-style:dashed;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all .3s;
+    color: rgb(78, 36, 36);
+
+}
+.titulo{
+    font-weight: bold;
+    line-height: 2em;
+}

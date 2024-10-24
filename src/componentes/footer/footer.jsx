@@ -7,6 +7,9 @@ import twiterx from "../../assets/twitterx.svg";
 import whatsapp from "../../assets/whatsapp.svg";
 import instagram from "../../assets/instagram.svg";
 function footer() {
+  const scrolltop = (e)=>{
+    console.log(e.targe.value)
+  }
   return (
     <div className={style.footer}>
       <img src={imgfooter} className={style.imagefooter} />
@@ -16,45 +19,54 @@ function footer() {
         </div>
         <div>
           <div className={style.titlefooter}>Nuestra Pagina</div>
-          <Link>
+          <Link to="/"  onClick={scrolltop}>
             <div className={style.btnfooter}>Inicio</div>
           </Link>
-          <Link>
+          <Link to="/nosotros" onClick={scrolltop}>
             <div className={style.btnfooter}>Nosotros</div>
           </Link>
-          <Link>
+          <Link to="/producto" onClick={scrolltop}>
             <div className={style.btnfooter}>Productos</div>
           </Link>
-          <Link>
+          <Link to="/contactanos" onClick={scrolltop}>
             <div className={style.btnfooter}>Contacto</div>
+          </Link>
+          <Link to="/misionvision" onClick={scrolltop}>
+            <div className={style.btnfooter}>Mision y Vision</div>
+          </Link>
+          <Link to="/gestiondecalidad" onClick={scrolltop}>
+            <div className={style.btnfooter}>Gestion de Calidad</div>
           </Link>
         </div>
         <div>
           <div className={style.titlefooter}>Link Extra</div>
 
-          <Link>
-            <div className={style.btnfooter}>Politicas de Privacidad</div>
+          <Link to="/politicas" onClick={scrolltop} >
+            <div className={style.btnfooter}>Politicas</div>
           </Link>
           <Link>
             <div className={style.btnfooter}>Preguntas Frecuentes</div>
           </Link>
-          <Link>
-            <div className={style.btnfooter}>Aviso Legal</div>
+          <Link to={"https://wa.link/acpe5d"}>
+            <div className={style.btnfooter}>Atencion al Cliente</div>
           </Link>
-          <Link>
+          <Link to="/contactanos" onClick={scrolltop}>
             <div className={style.btnfooter}>Informacion de Contacto</div>
           </Link>
           <Link>
             <div className={style.btnfooter}>Terminos y condiciones</div>
           </Link>
+          <Link to="/valores" onClick={scrolltop}>
+            <div className={style.btnfooter}>Valores</div>
+          </Link>
         </div>
         <div>
           <div className={style.titlefooter}>Contacto</div>
-          <Link to={"mail:qorifood@qorifood"}>
-            <div className={style.correofooter}>Qorifood@qorifood.com</div>
+          <Link to={"mailto:qorifood@qorifood"}>
+            <div className={style.correofooter}>Qorifood@qorifoodss.com</div>
           </Link>
-          <Link to={"https://wa.link/5c58b2"}>
-            <div className={style.numerofooter}>+51 990 779 050</div>
+          <Link to={"https://wa.link/acpe5d"}>
+            <div className={style.numerofooter}>+51 967 616 881</div>
           </Link>
           <Link>
             <div className={style.numerofooter}>+51 66 614604</div>
