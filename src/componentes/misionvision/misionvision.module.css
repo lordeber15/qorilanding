@@ -2,12 +2,13 @@
 @import '@fontsource-variable/outfit';
 @import '@fontsource-variable/vollkorn';
 .contenedor{
-    width: 50%;
+    gap: 10px;
     height: 100%;
     padding: 5% 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align:justify;
     font-size: 20px;
     border: 3px solid rgb(190, 190, 190);
@@ -20,5 +21,17 @@
 }
 .titulo{
     font-weight: bold;
-    line-height: 2em;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+}
+.parrafo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor:hover{
+    border-color: rgb(49, 33, 33);
 }

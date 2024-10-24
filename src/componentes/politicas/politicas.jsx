@@ -3,8 +3,10 @@ import style from './politicas.module.css'
 function politicas() {
   return (
     <div className={style.contenedor}>
+      <div className={style.titulo}>Politicas de la Empresa</div>
+        <div className={style.parrafos}>
         <div>
-        AGROINDUSTRIAS PRADO S.A.C. es una empresa agroindustrial dedicada al procesamiento y comercialización de pastas y snacks a base de cereales andinos procesados, productos que son distribuidos al mercado nacional e internacional.
+        <p className={style.negrita}>AGROINDUSTRIAS PRADO S.A.C.</p> es una empresa agroindustrial dedicada al procesamiento y comercialización de pastas y snacks a base de cereales andinos procesados, productos que son distribuidos al mercado nacional e internacional.
         La organización reafirma su compromiso con sus clientes implementando y manteniendo un sistema de gestión de la calidad, basados en los requisitos de la norma internacional ISO 9001:2015, la cual asume y promueve los siguientes compromisos:
         </div>
         <ul>
@@ -22,13 +24,12 @@ function politicas() {
           </li>
           <li>
           Mejorar continuamente el desempeño del sistema de gestión a través de nuestros procesos y productos, para asegurar el cumplimiento de los requisitos del cliente y partes interesadas.
-Garantizar la participación de los proveedores en el sistema de gestión de la calidad.
+          Garantizar la participación de los proveedores en el sistema de gestión de la calidad.
           </li>
         </ul>
         <div>
-        </div>
-        <div>
         Todos nuestros compromisos se encuentran basados en la mejora continua de los procesos de la organización.
+        </div>
         </div>
     </div>
   )

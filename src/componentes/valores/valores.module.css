@@ -2,14 +2,13 @@
 @import '@fontsource-variable/outfit';
 @import '@fontsource-variable/vollkorn';
 .contenedor{
-    width: 50%;
     height: 100%;
     padding: 5% 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align:justify;
-    font-size: 20px;
+    font-size: 22px;
     border: 3px solid rgb(190, 190, 190);
     margin: 7% 5%;
     border-style:dashed;
@@ -19,6 +18,27 @@
 
 }
 .titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 26spx;
     font-weight: bold;
     line-height: 2em;
+}
+.text{
+    width: 50%;
+    justify-items: center;
+    align-items: center;
+}
+.parrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.imagenes{
+    height: 150px;
+}
+
+.contenedor:hover{
+    border-color: rgb(49, 33, 33);
 }

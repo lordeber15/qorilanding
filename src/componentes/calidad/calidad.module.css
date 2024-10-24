@@ -2,7 +2,7 @@
 @import '@fontsource-variable/outfit';
 @import '@fontsource-variable/vollkorn';
 .contenedor{
-    width: 50%;
+    gap: 10px;
     height: 100%;
     padding: 5% 5%;
     display: flex;
@@ -20,5 +20,12 @@
 }
 .titulo{
     font-weight: bold;
-    line-height: 2em;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contenedor:hover{
+    border-color: rgb(49, 33, 33);
 }
